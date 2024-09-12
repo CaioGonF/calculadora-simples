@@ -11,7 +11,8 @@ function insert(numero) {
         numero == "+" ||
         numero == "-" ||
         numero == "/" ||
-        numero == "*"
+        numero == "*" ||
+        numero == "."
       ) {
         document.getElementById("resultado").innerHTML = resultado + numero;
         operadorAtivo = true;
@@ -23,7 +24,8 @@ function insert(numero) {
       numero == "+" ||
       numero == "-" ||
       numero == "/" ||
-      numero == "*"
+      numero == "*" ||
+      numero == "."
     ) {
       if (operadorAtivo) {
       } else {
