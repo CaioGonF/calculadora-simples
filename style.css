@@ -51,5 +51,13 @@ button:hover {
   word-break: break-all;
 }
 
-@media (max-width: ) {
+@media (max-width: 400px) {
+  .calculadora {
+    padding: 10px;
+    margin-inline: 5px;
+  }
+  h1 {
+    padding-top: 5px;
+    padding-left: 5px;
+  }
 }
